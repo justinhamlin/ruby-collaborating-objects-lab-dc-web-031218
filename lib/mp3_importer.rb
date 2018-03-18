@@ -7,7 +7,7 @@ class MP3Importer
   end
   
   def files
-    Dir["/path/db/mp3s/**/*.rb"]
+    Dir["/db/mp3s/**/*.rb"]
   end
   
 end
